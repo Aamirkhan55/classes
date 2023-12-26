@@ -20,7 +20,8 @@ class Mathematics {
    int a1 = 30;
   int a2 = 10;
   // Constructor
-  Mathematics (int a1, int a2) {
+  Mathematics (int a1, int a2) // Parametirized Constructor 
+   {
     this.a1 = a1;
     this.a2 = a2;
   }
