@@ -1,15 +1,17 @@
 void main() {
+  int a1 = 30;
+  int a2 = 10;
   Mathematics mathematics = Mathematics();
-  int addResult  = (mathematics.addition(4, 6));
+  int addResult  = (mathematics.addition(a1, a2));
   print(addResult);
 
-  int subResult  = (mathematics.subtraction(4, 6));
+  int subResult  = (mathematics.subtraction(a1, a2));
   print(subResult);
 
-  int mulResult  = (mathematics.multiplication(4, 6));
+  int mulResult  = (mathematics.multiplication(a1, a2));
   print(mulResult);
 
-  double diviResult  = (mathematics.division(4, 6));
+  double diviResult  = (mathematics.division(a1, a2));
   print(diviResult);
 
 }
@@ -28,7 +30,7 @@ class Mathematics {
     return a1 *  a2;
   }
   // Division 
-  double division (double a1, int a2) {
+  double division (int a1, int a2) {
     return a1 /  a2;
   }
 
